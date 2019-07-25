@@ -2605,7 +2605,9 @@ input, select, textarea {
 				}
 
 /* Actions */
-
+ul.actions i {
+	margin-right: 10px;
+}
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2615,10 +2617,11 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
+			padding: 0 0 0 4.5em;
 			vertical-align: middle;
 		}
 
